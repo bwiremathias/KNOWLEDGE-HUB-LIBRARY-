@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Knowledge Hub Library - Read, Learn and Grow.">
+    <title>Knowledge Hub Library | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-content">
+        <a href="index.html" class="logo">📚 Knowledge Hub</a>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#resources">Resources</a>
+            <a href="#services">Services</a>
+            <a href="membership.html">Membership</a>
+            <a href="book-request.html">Request a Book</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="container hero-content">
+        <p class="eyebrow">WELCOME TO KNOWLEDGE HUB LIBRARY</p>
+        <h1>Read, Learn and Grow</h1>
+        <p>
+            Discover knowledge, develop skills and explore a world
+            of learning through books and digital resources.
+        </p>
+        <a href="#resources" class="btn">Explore Resources</a>
+        <a href="membership.html" class="btn btn-outline">
+            Become a Member
+        </a>
+    </div>
+</section>
+
+<section id="about" class="section container">
+    <h2>About Our Library</h2>
+    <p>
+        Knowledge Hub Library is a community-based library information
+        system designed to support students, teachers and other
+        community members. It promotes reading, research, digital
+        literacy and lifelong learning.
+    </p>
+</section>
+
+<section id="resources" class="section section-light">
+    <div class="container">
+        <h2>Our Learning Resources</h2>
+        <p class="section-intro">
+            Explore different categories of learning materials.
+        </p>
+
+        <div class="card-grid">
+            <article class="resource card">
+                <div class="card-icon">🔬</div>
+                <h3>Science</h3>
+                <p>Explore biology, chemistry, physics and scientific discoveries.</p>
+            </article>
+
+            <article class="resource card">
+                <div class="card-icon">📐</div>
+                <h3>Mathematics</h3>
+                <p>Access mathematics textbooks, exercises and reference materials.</p>
+            </article>
+
+            <article class="resource card">
+                <div class="card-icon">💻</div>
+                <h3>Information Technology</h3>
+                <p>Learn computer applications, programming and digital skills.</p>
+            </article>
+
+            <article class="resource card">
+                <div class="card-icon">📖</div>
+                <h3>Literature</h3>
+                <p>Discover novels, poetry, stories and language resources.</p>
+            </article>
+
+            <article class="resource card">
+                <div class="card-icon">🎓</div>
+                <h3>Education</h3>
+                <p>Find teaching methods, educational theories and professional resources.</p>
+            </article>
+
+            <article class="resource card">
+                <div class="card-icon">🌍</div>
+                <h3>Social Sciences</h3>
+                <p>Explore history, geography, economics and society.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section container">
+    <h2>Our Library Services</h2>
+
+    <div class="card-grid">
+        <article class="service card">
+            <h3>📚 Book Lending</h3>
+            <p>Borrow available books for personal study and research.</p>
+        </article>
+
+        <article class="service card">
+            <h3>🔎 Research Support</h3>
+            <p>Find information and reference materials for academic work.</p>
+        </article>
+
+        <article class="service card">
+            <h3>🌐 Digital Learning</h3>
+            <p>Explore digital materials and online learning resources.</p>
+        </article>
+
+        <article class="service card">
+            <h3>👥 Membership</h3>
+            <p>Register to access library services and activities.</p>
+        </article>
+    </div>
+</section>
+
+<section class="section section-light">
+    <div class="container">
+        <h2>Sample Book Catalogue</h2>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book Title</th>
+                        <th>Author</th>
+                        <th>Category</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Introduction to Biology</td>
+                        <td>J. Smith</td>
+                        <td>Science</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>Basic Mathematics</td>
+                        <td>A. Brown</td>
+                        <td>Mathematics</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Fundamentals</td>
+                        <td>R. Jones</td>
+                        <td>ICT</td>
+                        <td>On loan</td>
+                    </tr>
+                    <tr>
+                        <td>Foundations of Education</td>
+                        <td>M. Taylor</td>
+                        <td>Education</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="note">Note: This is a sample catalogue for demonstration.</p>
+    </div>
+</section>
+
+<section class="section container">
+    <h2>How to Borrow a Book</h2>
+    <ol class="steps-list">
+        <li>Register as a library member.</li>
+        <li>Search for the book you need.</li>
+        <li>Check whether the book is available.</li>
+        <li>Submit a borrowing request.</li>
+        <li>Follow the library's borrowing and return rules.</li>
+    </ol>
+</section>
+
+<section class="section section-light">
+    <div class="container">
+        <h2>Library Rules</h2>
+        <ul class="rules-list">
+            <li>Maintain silence and respect other readers.</li>
+            <li>Handle library books and equipment carefully.</li>
+            <li>Return borrowed books by the agreed date.</li>
+            <li><strong>Do not damage, write in or remove library materials without permission.</strong></li>
+            <li>Keep the library clean and organised.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="call-to-action">
+    <div class="container">
+        <h2>Start Your Learning Journey Today</h2>
+        <p>Join Knowledge Hub Library and make learning a daily habit.</p>
+        <a href="membership.html" class="btn">Join the Library</a>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <h3>📚 Knowledge Hub Library</h3>
+        <p>Read, Learn and Grow.</p>
+        <p>Supporting reading, research and lifelong learning.</p>
+        <p>Email: info@knowledgehublibrary.example</p>
+        <p>&copy; 2026 Knowledge Hub Library. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
