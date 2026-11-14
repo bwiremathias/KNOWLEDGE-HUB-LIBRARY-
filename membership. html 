@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Membership | Knowledge Hub Library</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #123b5d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        nav {
+            background: #082b45;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffc857;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #164e75, #287e9e);
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .membership-info {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 10px #00000012;
+        }
+
+        .membership-info h2 {
+            color: #123b5d;
+            margin-bottom: 12px;
+        }
+
+        .membership-info ul {
+            padding-left: 22px;
+        }
+
+        .form-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px #00000015;
+        }
+
+        .form-box h2 {
+            color: #123b5d;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border: 1px solid #ccd5df;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: 2px solid #287e9e;
+        }
+
+        button {
+            width: 100%;
+            background: #123b5d;
+            color: white;
+            padding: 14px;
+            margin-top: 22px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #287e9e;
+        }
+
+        footer {
+            background: #082b45;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffc857;
+            text-decoration: none;
+        }
+
+        @media(max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 KNOWLEDGE HUB LIBRARY</h1>
+    <p>Read, Learn and Grow</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="membership.html">Membership</a>
+    <a href="book-request.html">Book Request</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+
+<section class="hero">
+    <h2>Become a Library Member</h2>
+    <p>Join our learning community and explore a world of knowledge.</p>
+</section>
+
+<main class="container">
+
+    <section class="membership-info">
+        <h2>Why Join Knowledge Hub Library?</h2>
+
+        <p>
+            Knowledge Hub Library welcomes students, teachers
+            and community members who wish to develop their
+            reading, research and digital learning skills.
+        </p>
+
+        <ul>
+            <li>Access to educational reading materials.</li>
+            <li>Support for academic research.</li>
+            <li>Opportunities to improve digital literacy.</li>
+            <li>Access to library learning activities.</li>
+            <li>Promotion of lifelong learning.</li>
+        </ul>
+    </section>
+
+    <section class="form-box">
+        <h2>Membership Registration Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname"
+                name="fullname"
+                placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email"
+                name="email"
+                placeholder="Enter your email address" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone"
+                name="phone"
+                placeholder="Enter your phone number" required>
+
+            <label for="gender">Gender (Optional)</label>
+            <select id="gender" name="gender">
+                <option value="">Select an option</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Prefer not to say</option>
+            </select>
+
+            <label for="category">Membership Category</label>
+            <select id="category" name="category" required>
+                <option value="">Choose category</option>
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Researcher</option>
+                <option>Community Member</option>
+            </select>
+
+            <label for="institution">School / Institution</label>
+            <input type="text" id="institution"
+                name="institution"
+                placeholder="Enter institution name">
+
+            <label for="reason">Why do you want to join?</label>
+            <textarea id="reason" name="reason"
+                rows="4"
+                placeholder="Briefly describe your interest"></textarea>
+
+            <button type="submit">
+                Submit Membership Application
+            </button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Knowledge Hub Library. All Rights Reserved.</p>
+    <p>Read • Learn • Research • Grow</p>
+    <p><a href="index.html">Return to Home</a></p>
+</footer>
+
+</body>
+</html>
