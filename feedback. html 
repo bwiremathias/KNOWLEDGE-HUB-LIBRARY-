@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback | Knowledge Hub Library</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #123b5d;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+
+        nav {
+            background: #082b45;
+            text-align: center;
+            padding: 14px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffc857;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #164e75, #287e9e);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .intro, .feedback-form, .contact {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px #00000012;
+        }
+
+        h2 {
+            color: #123b5d;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border: 1px solid #ccd5df;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            background: #123b5d;
+            color: white;
+            padding: 14px;
+            margin-top: 22px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #287e9e;
+        }
+
+        .contact {
+            border-left: 5px solid #287e9e;
+        }
+
+        footer {
+            background: #082b45;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffc857;
+            text-decoration: none;
+        }
+
+        @media(max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+
+            .hero h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 KNOWLEDGE HUB LIBRARY</h1>
+    <p>Read, Learn and Grow</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="membership.html">Membership</a>
+    <a href="book-request.html">Book Request</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+
+<section class="hero">
+    <h2>We Value Your Feedback</h2>
+    <p>Your ideas help us improve our library services.</p>
+</section>
+
+<main class="container">
+
+    <section class="intro">
+        <h2>💬 Share Your Experience</h2>
+
+        <p>
+            Knowledge Hub Library is committed to providing
+            quality educational resources and services.
+            We welcome feedback from students, teachers,
+            researchers and community members.
+        </p>
+
+        <p>
+            Use the form below to share your experience,
+            report challenges or suggest improvements.
+        </p>
+    </section>
+
+    <section class="feedback-form">
+
+        <h2>Feedback Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Full Name (Optional)</label>
+            <input type="text" id="name" name="name"
+                placeholder="Enter your name">
+
+            <label for="email">Email Address (Optional)</label>
+            <input type="email" id="email" name="email"
+                placeholder="Enter your email">
+
+            <label for="type">Feedback Category</label>
+            <select id="type" name="type" required>
+                <option value="">Choose feedback category</option>
+                <option>General Comment</option>
+                <option>Suggestion</option>
+                <option>Complaint</option>
+                <option>Book or Resource Recommendation</option>
+                <option>Website Improvement</option>
+                <option>Other</option>
+            </select>
+
+            <label for="rating">Rate Your Experience</label>
+            <select id="rating" name="rating" required>
+                <option value="">Select your rating</option>
+                <option>Excellent</option>
+                <option>Very Good</option>
+                <option>Good</option>
+                <option>Fair</option>
+                <option>Poor</option>
+            </select>
+
+            <label for="message">Your Feedback</label>
+            <textarea id="message" name="message"
+                rows="6"
+                placeholder="Write your comments or suggestions here..."
+                required></textarea>
+
+            <button type="submit">
+                Submit Feedback
+            </button>
+
+        </form>
+
+    </section>
+
+    <section class="contact">
+        <h2>📞 Get in Touch</h2>
+
+        <p>
+            Have additional questions or need assistance?
+            You can use our feedback form to communicate
+            with the Knowledge Hub Library team.
+        </p>
+
+        <p>We appreciate your participation and support.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Knowledge Hub Library. All Rights Reserved.</p>
+    <p>Read • Learn • Research • Grow</p>
+    <p><a href="index.html">Return to Home</a></p>
+</footer>
+
+</body>
+</html>
