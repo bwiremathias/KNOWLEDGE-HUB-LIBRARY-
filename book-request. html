@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Request | Knowledge Hub Library</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #123b5d;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+
+        nav {
+            background: #082b45;
+            text-align: center;
+            padding: 14px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffc857;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #164e75, #287e9e);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .information, .request-form {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px #00000012;
+        }
+
+        h2 {
+            color: #123b5d;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border: 1px solid #ccd5df;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 22px;
+            background: #123b5d;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #287e9e;
+        }
+
+        footer {
+            background: #082b45;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffc857;
+            text-decoration: none;
+        }
+
+        @media(max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 KNOWLEDGE HUB LIBRARY</h1>
+    <p>Read, Learn and Grow</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="membership.html">Membership</a>
+    <a href="book-request.html">Book Request</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+
+<section class="hero">
+    <h2>Request a Book</h2>
+    <p>Tell us which book you would like to find in our library.</p>
+</section>
+
+<main class="container">
+
+    <section class="information">
+        <h2>📖 Help Us Expand Our Collection</h2>
+
+        <p>
+            Knowledge Hub Library values the reading and
+            learning interests of its users. Submit a book
+            request to suggest educational materials that
+            can support learning, teaching and research.
+        </p>
+
+        <p>
+            All requests are subject to availability,
+            relevance and library collection decisions.
+        </p>
+    </section>
+
+    <section class="request-form">
+
+        <h2>Book Request Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                placeholder="Enter your email" required>
+
+            <label for="title">Book Title</label>
+            <input type="text" id="title" name="title"
+                placeholder="Enter the book title" required>
+
+            <label for="author">Author's Name</label>
+            <input type="text" id="author" name="author"
+                placeholder="Enter author's name">
+
+            <label for="category">Book Category</label>
+            <select id="category" name="category" required>
+                <option value="">Select book category</option>
+                <option>Science</option>
+                <option>Mathematics</option>
+                <option>Education</option>
+                <option>Information Technology</option>
+                <option>Literature</option>
+                <option>History</option>
+                <option>Business and Entrepreneurship</option>
+                <option>Research and Reference</option>
+                <option>Other</option>
+            </select>
+
+            <label for="format">Preferred Book Format</label>
+            <select id="format" name="format">
+                <option value="">Select format</option>
+                <option>Printed Book</option>
+                <option>Electronic Book (E-book)</option>
+                <option>Either Format</option>
+            </select>
+
+            <label for="reason">Why are you requesting this book?</label>
+            <textarea id="reason" name="reason"
+                rows="5"
+                placeholder="Explain how the book will support your learning or research"></textarea>
+
+            <button type="submit">
+                Submit Book Request
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Knowledge Hub Library. All Rights Reserved.</p>
+    <p>Read • Learn • Research • Grow</p>
+    <p><a href="index.html">Return to Home</a></p>
+</footer>
+
+</body>
+</html>
