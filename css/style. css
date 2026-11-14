@@ -1,1 +1,360 @@
 /*knowledge hub stylesheet*/
+
+/* =====================================
+   KNOWLEDGE HUB LIBRARY
+   Main Website Stylesheet
+===================================== */
+
+/* 1. GENERAL SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #263238;
+    line-height: 1.7;
+}
+
+/* 2. HEADER */
+
+header {
+    background: #123b5d;
+    color: #ffffff;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 5px;
+    color: #dceaf5;
+}
+
+/* 3. NAVIGATION */
+
+nav {
+    background: #082b45;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 12px;
+    padding: 7px 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffc857;
+    background: #164e75;
+    border-radius: 5px;
+}
+
+/* 4. HERO SECTION */
+
+.hero {
+    background: linear-gradient(120deg, #123b5d, #287e9e);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h2 {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 17px;
+}
+
+/* 5. MAIN CONTENT */
+
+.container {
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 20px;
+}
+
+main {
+    min-height: 400px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2, h3 {
+    color: #123b5d;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+/* 6. CONTENT CARDS */
+
+.card,
+.information,
+.intro,
+.membership-info,
+.request-form,
+.feedback-form,
+.contact {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* 7. IMAGES */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 8. LINKS */
+
+a {
+    transition: 0.3s;
+}
+
+main a {
+    color: #176b91;
+}
+
+main a:hover {
+    color: #123b5d;
+}
+
+/* 9. FORMS */
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #123b5d;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccd5df;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: inherit;
+    background: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #287e9e;
+    border-color: #287e9e;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* 10. BUTTONS */
+
+button,
+.btn {
+    display: inline-block;
+    background: #123b5d;
+    color: white;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+.btn:hover {
+    background: #287e9e;
+    color: white;
+}
+
+form button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* 11. LISTS */
+
+ul,
+ol {
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* 12. TABLES */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #dce3eb;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #123b5d;
+    color: white;
+}
+
+/* 13. MULTIMEDIA */
+
+video,
+audio {
+    max-width: 100%;
+    margin: 15px 0;
+}
+
+video {
+    border-radius: 8px;
+}
+
+/* 14. FOOTER */
+
+footer {
+    background: #082b45;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #ffc857;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* 15. RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    .hero {
+        padding: 45px 15px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    nav a {
+        margin: 4px;
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 12px;
+        margin: 20px auto;
+    }
+
+    .card,
+    .information,
+    .intro,
+    .membership-info,
+    .request-form,
+    .feedback-form,
+    .contact {
+        padding: 18px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    button,
+    .btn {
+        width: 100%;
+    }
+}
